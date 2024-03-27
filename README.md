@@ -1,41 +1,9 @@
-# ntfy-website
+Ayah Aid is a website that uses the ntfy app and API.
 
-This template should help get you started developing with Vue 3 in Vite.
+It's made to help anyone who wants to memorize the Quran or have a watr (a number of ayahs that someone would like to recite daily).
+this website uses the Quran API to fetch its data. 
+it allows you to pick how many Ayahs you would like to recieve .
+(I'm working adding a database to allow users to sign-up and make their own surahs, as well as allowing them to pick a time so that they recieve their notifcation. As well as adding the option to choose an entire juz or a complete surah instead of individual ayahs.)
 
-## Recommended IDE Setup
+(Also planning to rewrite the whole thing in react, cu I heard vue won't get me a job, even tho I really liked using it to make this.)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-# Ayah-AId
